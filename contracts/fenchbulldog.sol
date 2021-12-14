@@ -13,7 +13,7 @@ contract fenchbulldog is ERC721 {
     constructor() ERC721("fenchbulldog", "fNFT") {}
 
     function _baseURI() internal view virtual override returns (string memory) {
-        return "MIURL";
+        return "https://raw.githubusercontent.com/Ninja-LLC/frenchbulldog/main/";
 }
 
  function mintNFT(address to) public payable

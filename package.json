@@ -15,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/Ninja-LLC/frenchbulldog/issues"
   },
-  "homepage": "https://github.com/Ninja-LLC/frenchbulldog#readme"
+  "homepage": "https://github.com/Ninja-LLC/frenchbulldog#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.2",
+    "hardhat": "^2.7.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.0"
+  }
 }
